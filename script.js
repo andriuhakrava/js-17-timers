@@ -25,7 +25,6 @@ let siBoom = setInterval(function(){
 	if (currentTime === 0) clearInterval(siBoom);
 }, 1000);
 
-
 // 3. Виправте код, щоб у консолі видавало цифри 1, 2, 3, 4, 5:
 	for (let i = 0; i < 5; i++) {
 	  setTimeout(function() {
